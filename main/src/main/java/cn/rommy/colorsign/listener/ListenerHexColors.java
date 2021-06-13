@@ -1,4 +1,4 @@
-package com.github.sirblobman.colored.signs.listener;
+package cn.rommy.colorsign.listener;
 
 import java.util.Objects;
 
@@ -10,7 +10,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.SignChangeEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.github.sirblobman.colored.signs.utility.HexColorUtility;
+import cn.rommy.colorsign.utility.HexColorUtility;
 
 public class ListenerHexColors implements Listener {
     private final JavaPlugin plugin;

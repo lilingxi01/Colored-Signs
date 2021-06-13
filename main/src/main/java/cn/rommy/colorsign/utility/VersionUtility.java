@@ -1,4 +1,4 @@
-package com.github.sirblobman.colored.signs.utility;
+package cn.rommy.colorsign.utility;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

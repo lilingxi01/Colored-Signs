@@ -1,4 +1,4 @@
-package com.github.sirblobman.colored.signs.command;
+package cn.rommy.colorsign.command;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,11 +19,11 @@ import org.bukkit.command.TabExecutor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 
-import com.github.sirblobman.colored.signs.ColoredSigns;
-import com.github.sirblobman.colored.signs.utility.HexColorUtility;
-import com.github.sirblobman.colored.signs.utility.LegacyColorUtility;
-import com.github.sirblobman.colored.signs.utility.Replacer;
-import com.github.sirblobman.colored.signs.utility.VersionUtility;
+import cn.rommy.colorsign.ColoredSigns;
+import cn.rommy.colorsign.utility.HexColorUtility;
+import cn.rommy.colorsign.utility.LegacyColorUtility;
+import cn.rommy.colorsign.utility.Replacer;
+import cn.rommy.colorsign.utility.VersionUtility;
 
 public class CommandEditSign implements TabExecutor {
     private final ColoredSigns plugin;

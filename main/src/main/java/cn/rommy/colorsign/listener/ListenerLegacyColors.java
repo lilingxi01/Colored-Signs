@@ -1,4 +1,4 @@
-package com.github.sirblobman.colored.signs.listener;
+package cn.rommy.colorsign.listener;
 
 import java.util.Objects;
 
@@ -9,8 +9,8 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.SignChangeEvent;
 
-import com.github.sirblobman.colored.signs.ColoredSigns;
-import com.github.sirblobman.colored.signs.utility.LegacyColorUtility;
+import cn.rommy.colorsign.ColoredSigns;
+import cn.rommy.colorsign.utility.LegacyColorUtility;
 
 public class ListenerLegacyColors implements Listener {
     private final ColoredSigns plugin;

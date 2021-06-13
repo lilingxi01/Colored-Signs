@@ -6,6 +6,9 @@ main: "${bukkit.plugin.main}"
 version: "${bukkit.plugin.version}"
 author: "${bukkit.plugin.author}"
 
+# Add api-version to get rid of the Legacy Warning.
+api-version: 1.17
+
 commands:
   edit-sign:
     description: "Edit a sign at the provided block coordinates."

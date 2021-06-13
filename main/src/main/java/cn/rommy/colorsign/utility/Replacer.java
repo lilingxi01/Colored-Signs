@@ -1,4 +1,4 @@
-package com.github.sirblobman.colored.signs.utility;
+package cn.rommy.colorsign.utility;
 
 @FunctionalInterface
 public interface Replacer {
